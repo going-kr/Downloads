@@ -1,0 +1,22 @@
+{
+  "product": "ZPI-IO8R",
+  "version": "v3.0",
+  "updatedAt": "2026-05-21",
+  "files": [
+    {
+      "name": "manual.pdf",
+      "label": "사용 메뉴얼",
+      "url": "/downloads/zpi-io8r/manual.pdf"
+    },
+    {
+      "name": "manual-image.jpg",
+      "label": "사용 설명서 이미지",
+      "url": "/downloads/zpi-io8r/manual-image.jpg"
+    },
+    {
+      "name": "schematic.png",
+      "label": "회로도",
+      "url": "/downloads/zpi-io8r/schematic.png"
+    }
+  ]
+}
