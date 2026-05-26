@@ -13,7 +13,7 @@ updated: 2026-05-21
 
 ```text
 manual.pdf
-manual-image.jpg
+manual-image.webp
 schematic.png
 release.json
 ```
