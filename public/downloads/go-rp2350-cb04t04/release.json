@@ -1,0 +1,17 @@
+{
+  "product": "GO-RP2350-CB04T04",
+  "version": "v1.0.0",
+  "updatedAt": "2026-09-14",
+  "files": [
+    {
+      "name": "pcb-layout.pdf",
+      "label": "PCB 레이아웃 도면",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/pcb-layout.pdf"
+    },
+    {
+      "name": "schematic.pdf",
+      "label": "회로도",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/schematic.pdf"
+    }
+  ]
+}

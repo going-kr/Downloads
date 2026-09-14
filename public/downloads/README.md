@@ -7,6 +7,7 @@
 ```text
 senvas/                 Senvas 최신 자료
 zpi-io8r/               ZPI-IO8R 최신 자료
+go-rp2350-cb04t04/      GO-RP2350-CB04T04 최신 자료
 senbrix/                Senbrix 최신 자료
 bundles/                여러 제품을 묶은 패키지 자료
 ```
