@@ -1,8 +1,13 @@
 {
   "product": "GO-RP2350-CB04T04",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "updatedAt": "2026-09-14",
   "files": [
+    {
+      "name": "motor-temperature-relay-manual.pdf",
+      "label": "모터 온도 측정·릴레이 출력 장치 사용 매뉴얼 v2.2",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/motor-temperature-relay-manual.pdf"
+    },
     {
       "name": "pcb-layout.pdf",
       "label": "PCB 레이아웃 도면",
