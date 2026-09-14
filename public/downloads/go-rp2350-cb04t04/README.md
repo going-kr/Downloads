@@ -5,13 +5,13 @@ GO-RP2350-CB04T04 최신 배포 자료를 넣는 폴더입니다. 이 폴더 루
 ## 현재 배포
 
 ```text
-version: v1.2.0
+version: v1.3.0
 updated: 2026-09-14
 ```
 
 ## 파일
 
-`motor-temperature-relay-manual.pdf`는 GO-RP2350-CB04T04를 활용한 모터 온도 측정·릴레이 출력 장치의 사용 매뉴얼 v2.5 (2026-09-14)입니다. 자료 묶음 버전과 매뉴얼 버전은 별도로 관리합니다.
+`motor-temperature-relay-manual.pdf`는 GO-RP2350-CB04T04를 활용한 모터 온도 측정·릴레이 출력 장치의 화면조작 매뉴얼 v2.6 (2026-09-14)입니다. 자료 묶음 버전과 매뉴얼 버전은 별도로 관리합니다.
 
 ```text
 motor-temperature-relay-manual.pdf
