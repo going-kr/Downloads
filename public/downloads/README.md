@@ -20,3 +20,19 @@ bundles/                여러 제품을 묶은 패키지 자료
 제품명: Sen Example
 폴더명: sen-example
 ```
+
+## 자사 PCB 제품 자료
+
+[11개 제품 목록](../products.html)에서 설명서 PDF, 쪽별 설명서 이미지, 대표·뒷면·선화 이미지를 확인할 수 있습니다. [전체 링크 CSV](../product-links.csv)도 제공합니다.
+
+- `go-direct-main/` — GO-DIRECT-main
+- `go-direct-stage3/` — GO-DIRECT-STAGE3
+- `go-pcf8574-sen08/` — GO-PCF8574-SEN08
+- `go-pi-zero-main/` — GO-Pi-Zero-Main
+- `go-rp2040-cb08/` — GO-RP2040-CB08
+- `go-rp2350-cb04t04/` — GO-RP2350-CB04T04
+- `go-stage-rd8/` — GO-STAGE-RD8
+- `go-stage-sw5/` — GO-STAGE-SW5
+- `go-sub-ad04/` — GO-SUB-AD04
+- `go-sub-cb08/` — GO-SUB-CB08
+- `go-sub-da04/` — GO-SUB-DA04

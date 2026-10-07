@@ -5,8 +5,8 @@ GO-RP2350-CB04T04 최신 배포 자료를 넣는 폴더입니다. 이 폴더 루
 ## 현재 배포
 
 ```text
-version: v1.4.0
-updated: 2026-09-28
+version: v1.5.0
+updated: 2026-10-07
 ```
 
 ## 파일
@@ -33,3 +33,14 @@ https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/schematic.pdf
 ## 보관
 
 이전 자료를 남길 때는 `_archive/YYYY-MM-DD_vX.Y.Z/` 형식의 하위 폴더를 만들고 그 안에 보관합니다.
+
+## 제품 소개 자료 (2026-10-07 추가)
+
+- [대표 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/product-front.png)
+- [뒷면 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/product-back.png)
+- [선화 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/product-line.png)
+- [제품 사용설명서 PDF](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/manual.pdf)
+- [사용설명서 1쪽 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/manual-page-1.png)
+- [사용설명서 2쪽 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/manual-page-2.png)
+- [사용설명서 3쪽 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/manual-page-3.png)
+- [사용설명서 4쪽 이미지](https://going-kr.github.io/Downloads/downloads/go-rp2350-cb04t04/manual-page-4.png)

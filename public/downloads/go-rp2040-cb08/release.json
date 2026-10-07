@@ -1,0 +1,42 @@
+{
+  "product": "GO-RP2040-CB08",
+  "version": "v1.0.0",
+  "files": [
+    {
+      "name": "product-front.png",
+      "label": "대표 이미지",
+      "url": "/Downloads/downloads/go-rp2040-cb08/product-front.png"
+    },
+    {
+      "name": "product-back.png",
+      "label": "뒷면 이미지",
+      "url": "/Downloads/downloads/go-rp2040-cb08/product-back.png"
+    },
+    {
+      "name": "product-line.png",
+      "label": "선화 이미지",
+      "url": "/Downloads/downloads/go-rp2040-cb08/product-line.png"
+    },
+    {
+      "name": "manual.pdf",
+      "label": "제품 사용설명서 PDF",
+      "url": "/Downloads/downloads/go-rp2040-cb08/manual.pdf"
+    },
+    {
+      "name": "manual-page-1.png",
+      "label": "사용설명서 1쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2040-cb08/manual-page-1.png"
+    },
+    {
+      "name": "manual-page-2.png",
+      "label": "사용설명서 2쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2040-cb08/manual-page-2.png"
+    },
+    {
+      "name": "manual-page-3.png",
+      "label": "사용설명서 3쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2040-cb08/manual-page-3.png"
+    }
+  ],
+  "updatedAt": "2026-10-07"
+}
