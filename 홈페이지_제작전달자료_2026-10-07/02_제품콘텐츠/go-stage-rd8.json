@@ -1,0 +1,327 @@
+{
+  "id": "GO-STAGE-RD8",
+  "model": "GO-STAGE-RD8",
+  "family": "GO-DIRECT 시스템",
+  "subtitle": "GO-DIRECT RD장치 확장 보드 — 릴레이 출력 8점 · 수동 DIP 스위치 · I2C 주소 설정",
+  "features": [
+    "메인 보드(GO-DIRECT-MAIN) RD장치 버스에 연결하는 I2C 확장 보드",
+    "릴레이 출력 8점 (1a 접점, 공통 COM 1개)",
+    "출력마다 동작 표시 LED, 전원 LED",
+    "8회로 DIP 스위치(Manual Switch) — ON 하면 해당 릴레이 수동 동작",
+    "Board Number 로터리로 I2C 주소 설정 (0~7)",
+    "5핀 버스 커넥터 2개(병렬)로 다음 보드에 이어 연결"
+  ],
+  "spec": [
+    [
+      "모델",
+      "GO-STAGE-RD8"
+    ],
+    [
+      "확장 IC",
+      "PCF8574A (I2C 8비트 I/O 확장)"
+    ],
+    [
+      "연결 버스",
+      "메인 보드 RD장치 버스 (I2C, 5핀)"
+    ],
+    [
+      "I2C 주소",
+      "0x38~0x3F (Board Number 0~7)"
+    ],
+    [
+      "입력 전원",
+      "+5V — 메인 보드에서 공급"
+    ],
+    [
+      "릴레이 출력",
+      "8점, 1a 접점 (공통 COM)"
+    ],
+    [
+      "접점 정격",
+      "5A 250VAC / 5A 30VDC"
+    ],
+    [
+      "제어 논리",
+      "확장 IC 출력 Low → 릴레이 ON"
+    ],
+    [
+      "수동 조작",
+      "8회로 DIP 스위치 (ON = 릴레이 ON)"
+    ],
+    [
+      "표시 LED",
+      "출력 8 · 전원 1"
+    ],
+    [
+      "사용 온도 · 습도",
+      "−10 ~ 50°C · 10 ~ 95% RH (결빙 없음)"
+    ],
+    [
+      "고정홀",
+      "4개(지름 3.5mm) · 메인과 동일"
+    ],
+    [
+      "크기",
+      "92 × 87 mm"
+    ]
+  ],
+  "pins": [
+    {
+      "title": "릴레이 출력 (Low = ON)",
+      "cols": [
+        "PCF8574A",
+        "보드 단자"
+      ],
+      "rows": [
+        [
+          "P0",
+          "OUT1"
+        ],
+        [
+          "P1",
+          "OUT2"
+        ],
+        [
+          "P2",
+          "OUT3"
+        ],
+        [
+          "P3",
+          "OUT4"
+        ],
+        [
+          "P4",
+          "OUT5"
+        ],
+        [
+          "P5",
+          "OUT6"
+        ],
+        [
+          "P6",
+          "OUT7"
+        ],
+        [
+          "P7",
+          "OUT8"
+        ]
+      ]
+    },
+    {
+      "title": "I2C · Board Number",
+      "cols": [
+        "PCF8574A",
+        "연결"
+      ],
+      "rows": [
+        [
+          "SDA",
+          "버스 SDA1"
+        ],
+        [
+          "SCL",
+          "버스 SCL1"
+        ],
+        [
+          "A0",
+          "로터리 비트 1"
+        ],
+        [
+          "A1",
+          "로터리 비트 2"
+        ],
+        [
+          "A2",
+          "로터리 비트 4"
+        ]
+      ]
+    }
+  ],
+  "terminals": [
+    {
+      "label": "RD장치 버스 (왼쪽)",
+      "ref": "J1",
+      "pins": [
+        [
+          "1",
+          "+5V"
+        ],
+        [
+          "2",
+          "GND"
+        ],
+        [
+          "3",
+          "SDA1"
+        ],
+        [
+          "4",
+          "SCL1"
+        ],
+        [
+          "5",
+          "RST"
+        ]
+      ],
+      "desc": "메인 보드 RD장치 커넥터와 같은 배열 (2.5mm 피치)"
+    },
+    {
+      "label": "RD장치 버스 (오른쪽)",
+      "ref": "J2",
+      "pins": [
+        [
+          "1",
+          "+5V"
+        ],
+        [
+          "2",
+          "GND"
+        ],
+        [
+          "3",
+          "SDA1"
+        ],
+        [
+          "4",
+          "SCL1"
+        ],
+        [
+          "5",
+          "RST"
+        ]
+      ],
+      "desc": "J1 과 병렬 — 다음 보드 연결 (2.5mm 피치)"
+    },
+    {
+      "label": "RD OUTPUT",
+      "ref": "J3",
+      "pins": [
+        [
+          "1",
+          "COM"
+        ],
+        [
+          "2",
+          "OUT1"
+        ],
+        [
+          "3",
+          "OUT2"
+        ],
+        [
+          "4",
+          "OUT3"
+        ],
+        [
+          "5",
+          "OUT4"
+        ],
+        [
+          "6",
+          "OUT5"
+        ],
+        [
+          "7",
+          "OUT6"
+        ],
+        [
+          "8",
+          "OUT7"
+        ],
+        [
+          "9",
+          "OUT8"
+        ]
+      ],
+      "desc": "릴레이 접점 출력 8점 (7.62mm 피치)"
+    }
+  ],
+  "controls": [
+    "Board Number — I2C 주소 설정 로터리 스위치 (0~7 사용)",
+    "Manual Switch — 8회로 DIP 스위치, ON 하면 해당 릴레이 동작 (1~8 = OUT1~OUT8)",
+    "OUT1~OUT8 — 릴레이 동작 표시 LED",
+    "POWER — 전원 표시 LED (+5V)"
+  ],
+  "circuits": [
+    {
+      "title": "출력 회로 구성",
+      "kind": "relay",
+      "rows": [
+        [
+          "출력 방식",
+          "릴레이 접점 (1a)"
+        ],
+        [
+          "Common 방식",
+          "8점 공통 COM"
+        ],
+        [
+          "접점 정격",
+          "5A 250VAC / 5A 30VDC"
+        ],
+        [
+          "제어 논리",
+          "출력 Low → 릴레이 ON"
+        ],
+        [
+          "수동 조작",
+          "DIP ON → 릴레이 ON"
+        ],
+        [
+          "동작 표시",
+          "출력마다 LED"
+        ]
+      ],
+      "chain": [
+        "PCF8574A P0~P7",
+        "릴레이 코일",
+        "접점 COM ↔ OUT"
+      ],
+      "note": "접점은 무전압 접점이며, DIP 스위치를 ON 하면 I2C 명령과 관계없이 해당 릴레이가 동작합니다."
+    },
+    {
+      "title": "I2C 통신 · 주소 설정",
+      "kind": "i2c_io",
+      "rows": [
+        [
+          "연결 버스",
+          "메인 보드 RD장치 버스"
+        ],
+        [
+          "확장 IC",
+          "PCF8574A (8비트 I/O)"
+        ],
+        [
+          "주소 설정",
+          "Board Number 0~7 → 0x38~0x3F"
+        ],
+        [
+          "레벨 변환",
+          "MOSFET 3.3V ↔ 5V"
+        ],
+        [
+          "보호",
+          "10Ω 직렬 저항"
+        ],
+        [
+          "RST",
+          "다음 보드로 통과만"
+        ]
+      ],
+      "chain": [
+        "RD장치 버스",
+        "10Ω",
+        "레벨 변환",
+        "PCF8574A"
+      ],
+      "note": "같은 버스에 여러 장을 연결할 때는 Board Number 가 겹치지 않게 설정합니다."
+    }
+  ],
+  "slug": "go-stage-rd8",
+  "category": "GO-DIRECT 시스템",
+  "publicationStatus": "draft_requires_review",
+  "publicationNote": "원본에 임시·미확인 사양이 포함되어 있습니다. 90_내부검토_게시금지 확인 후 게시하세요.",
+  "proposedPagePath": "/products/go-stage-rd8/",
+  "frontImage": "../03_웹게시용자료/downloads/go-stage-rd8/product-front.png",
+  "manualUrl": "https://going-kr.github.io/Downloads/downloads/go-stage-rd8/manual.pdf"
+}

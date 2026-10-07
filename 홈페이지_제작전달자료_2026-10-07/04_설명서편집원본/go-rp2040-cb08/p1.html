@@ -1,0 +1,88 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;color:#1d2a55;-webkit-font-smoothing:antialiased}
+.page{position:relative;width:1169px;height:827px;overflow:hidden;background:#fff}
+.hdr{position:absolute;left:0;top:0;width:100%;height:70px}
+.hdr svg{position:absolute;left:0;top:0}
+.hdr h1{position:absolute;left:30px;top:9px;font-size:23px;font-weight:700;color:#fff;letter-spacing:-0.3px}
+.hdr .fam{display:inline-block;margin-left:12px;padding:2px 10px;border:1px solid rgba(255,255,255,.55);border-radius:12px;
+  font-size:12px;font-weight:500;vertical-align:4px;letter-spacing:.2px}
+.hdr .pg{position:absolute;right:28px;top:40px;font-size:15px;color:#3a4566;font-weight:400}
+.hdr .pg b{font-weight:700;color:#1d2a55}
+.sec{font-size:16px;font-weight:700;color:#1d2a55;margin:0 0 9px 0;letter-spacing:-0.2px}
+.sec:before{content:'·';margin-right:4px}
+table{border-collapse:collapse;width:100%}
+.spec th{background:#2a3d82;color:#fff;font-weight:500;font-size:12.5px;height:30px}
+.spec td{font-size:12px;height:27px;border-bottom:1px solid #dfe3ef;text-align:center;padding:2px 6px;line-height:1.25}
+.spec td.k{background:#e0e4f2;color:#2b3a6b;width:36%;font-weight:500}
+.spec tr:last-child td{border-bottom:2px solid #2a3d82}
+.pin{margin-bottom:10px}
+.pin th.t{background:#2a3d82;color:#fff;font-weight:500;font-size:12px;height:26px}
+.pin th.c{background:#f1f2f8;color:#3c4fa8;font-weight:500;font-size:11px;height:22px;border-bottom:1px solid #dfe3ef}
+.pin td{font-size:11.5px;height:22px;text-align:center;border-bottom:1px solid #e6e9f2;border-left:1px solid #eef0f6;padding:1px 4px}
+.pin td:first-child{border-left:none}
+.tbd{color:#b45309;background:#fff4e0;border-radius:3px;padding:0 4px;font-weight:500}
+.band{position:absolute;left:0;right:0;bottom:0;background:#f6f7fc}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px}
+.feat div{font-size:13px;line-height:1.45;padding-left:20px;position:relative}
+.feat div:before{content:'';position:absolute;left:2px;top:6px;width:9px;height:9px;border-radius:2px;background:#2a3d82}
+.sub{font-size:13.5px;color:#3a4566;margin:-2px 0 10px 0}
+.photo{background:#eaf0fc;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.photo img{max-width:94%;max-height:94%;object-fit:contain}
+.cap{font-size:10.5px;color:#7a84a3;margin-top:6px;line-height:1.4}
+.term{break-inside:avoid;margin-bottom:9px}
+.term th.t{background:#2a3d82;color:#fff;font-size:11.5px;font-weight:500;height:24px;text-align:left;padding-left:8px}
+.term th.t span{float:right;margin-right:6px;font-weight:700;font-size:10.5px;background:#e8590c;color:#fff;
+  border-radius:4px;padding:0 6px;line-height:17px;margin-top:1px}
+.term td{font-size:11px;height:19px;border-bottom:1px solid #e6e9f2;padding:1px 6px}
+.term td.n{width:44px;text-align:center;background:#f1f2f8;color:#3c4fa8}
+.term td.d{font-size:10.5px;color:#6b7393;background:#fafbfe}
+.ctl{display:grid;grid-template-columns:1fr 1fr;gap:5px 26px}
+.ctl div{font-size:12.5px;line-height:1.45;padding-left:14px;position:relative}
+.ctl div:before{content:'';position:absolute;left:1px;top:7px;width:6px;height:6px;border-radius:50%;background:#2a3d82}
+.cols{column-count:2;column-gap:16px;column-fill:auto}
+.card{background:#fff;border:1px solid #e1e5f0;border-radius:6px;padding:12px 14px 10px 14px;break-inside:avoid;
+  margin-bottom:14px;display:block}
+.card .sec{margin-bottom:8px}
+.card .body{display:flex;gap:14px;align-items:center}
+.card table.kv{width:50%;flex:none}
+.card.tmpl table.kv{width:44%}
+.card .chain{margin-top:8px}
+.kv td{font-size:11.5px;height:24px;border-bottom:1px solid #e6e9f2;padding:2px 6px;line-height:1.25}
+.kv td.k{background:#e0e4f2;color:#2b3a6b;width:40%;text-align:center;font-weight:500}
+.kv td.v{text-align:center}
+.card .dia{flex:1;min-width:0}
+.card .note{font-size:11.5px;color:#4a5375;margin-top:8px;line-height:1.45}
+.fit{overflow:hidden}
+</style></head><body><div class="page"><div class="hdr"><svg width="1169" height="70"><path d="M0,0 H1169 V36 H869 C829,36 819,62 759,62 H0 Z" fill="#18376e"/></svg><h1>GO-RP2040-CB08 사용 설명서<span class="fam">Senbrino</span></h1><div class="pg">manual page <b>01</b></div></div>
+<div style="position:absolute;left:30px;top:86px;width:392px;height:520px">
+  <div class="photo" style="height:486px"><img src="top_t.png"></div>
+  <div class="cap">※ 설계 데이터(PCB 아트웍)로 그린 렌더링 이미지입니다. 실물과 다를 수 있습니다.</div>
+</div>
+<div class="fit" style="position:absolute;left:446px;top:84px;width:330px;height:540px">
+  <div class="sec">정격 / 성능</div><table class="spec"><tr><th>MODEL</th><th>GO-RP2040-CB08</th></tr><tr><td class="k">CPU</td><td>RP2040 (12MHz 크리스털)</td></tr><tr><td class="k">메모리</td><td>플래시 16MB · FRAM 4Kbit</td></tr><tr><td class="k">입력 전원</td><td>DC 24V (전원 모듈 입력 범위 18~36V)</td></tr><tr><td class="k">디지털 입력</td><td>4점, 포토커플러 절연</td></tr><tr><td class="k">입력 정격 전압</td><td>DC 24V (10mA 이하)</td></tr><tr><td class="k">릴레이 출력</td><td>4점, 1a 접점 (공통 COM)</td></tr><tr><td class="k">접점 정격</td><td>5A 250VAC / 5A 30VDC</td></tr><tr><td class="k">통신</td><td>RS-485 2채널 (절연, 최대 500kbps)</td></tr><tr><td class="k">확장 커넥터</td><td>2mm 2×8 소켓 2개</td></tr><tr><td class="k">프로그램</td><td>USB-B (USB DownLoad)</td></tr><tr><td class="k">주소 설정</td><td>BCD 로터리 스위치</td></tr><tr><td class="k">사용 온도 · 습도</td><td>−10 ~ 50°C · 10 ~ 95% RH (결빙 없음)</td></tr><tr><td class="k">크기</td><td>75 × 81 mm</td></tr></table>
+</div>
+<div class="fit" style="position:absolute;left:800px;top:84px;width:340px;height:540px">
+  <div class="sec">제품 PIN배치</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:0 10px"><table class="pin"><tr><th class="t" colspan="2">INPUT</th></tr><tr><th class="c">MCU</th><th class="c">보드 단자</th></tr><tr><td>GP4</td><td>IN01</td></tr><tr><td>GP5</td><td>IN02</td></tr><tr><td>GP6</td><td>IN03</td></tr><tr><td>GP7</td><td>IN04</td></tr></table><table class="pin"><tr><th class="t" colspan="2">OUTPUT</th></tr><tr><th class="c">MCU</th><th class="c">보드 단자</th></tr><tr><td>GP10</td><td>OUT1</td></tr><tr><td>GP11</td><td>OUT2</td></tr><tr><td>GP12</td><td>OUT3</td></tr><tr><td>GP13</td><td>OUT4</td></tr></table><table class="pin"><tr><th class="t" colspan="2">RS-485</th></tr><tr><th class="c">MCU</th><th class="c">채널</th></tr><tr><td>GP0</td><td>CH1 TX</td></tr><tr><td>GP1</td><td>CH1 RX</td></tr><tr><td>GP8</td><td>CH2 TX</td></tr><tr><td>GP9</td><td>CH2 RX</td></tr></table><table class="pin"><tr><th class="t" colspan="2">BCD 스위치</th></tr><tr><th class="c">MCU</th><th class="c">비트</th></tr><tr><td>GP22</td><td>X1</td></tr><tr><td>GP23</td><td>X2</td></tr><tr><td>GP24</td><td>X4</td></tr><tr><td>GP25</td><td>X8</td></tr></table><table class="pin"><tr><th class="t" colspan="2">확장 J8 (SPI · UART2)</th></tr><tr><th class="c">MCU</th><th class="c">신호</th></tr><tr><td>GP16</td><td>MISO</td></tr><tr><td>GP17</td><td>SPI-CS</td></tr><tr><td>GP18</td><td>SPI-SCK</td></tr><tr><td>GP19</td><td>MOSI</td></tr><tr><td>GP21</td><td>SPI-INT</td></tr><tr><td>GP20</td><td>RESET</td></tr><tr><td>GP8</td><td>TX2</td></tr><tr><td>GP9</td><td>RX2</td></tr></table><table class="pin"><tr><th class="t" colspan="2">확장 J9 (I2C · ADC · PWM)</th></tr><tr><th class="c">MCU</th><th class="c">신호</th></tr><tr><td>GP2</td><td>SDA</td></tr><tr><td>GP3</td><td>SCL</td></tr><tr><td>GP28</td><td>I2C-INT</td></tr><tr><td>GP29</td><td>RESET</td></tr><tr><td>GP26</td><td>AD0</td></tr><tr><td>GP27</td><td>AD1</td></tr><tr><td>GP14</td><td>PWM11</td></tr><tr><td>GP15</td><td>PWM12</td></tr></table></div>
+</div>
+<div class="band" style="height:184px;padding:18px 30px 0 30px">
+  <div class="sec">주요 특징</div>
+  <div class="sub">RP2040 기반 산업용 제어 보드 — 절연 입력 4점 · 릴레이 출력 4점 · 절연 RS-485 2채널</div>
+  <div class="fit" style="height:96px"><div class="feat"><div>RP2040 MCU + 16MB 플래시, USB-B 로 프로그램 다운로드</div><div>포토커플러 절연 디지털 입력 4점 (공통 COM, 극성 무관)</div><div>릴레이 접점 출력 4점 (1a, 공통 COM), 출력별 동작 LED</div><div>RS-485 2채널 — 채널마다 전원·신호 절연, 송수신 자동 전환</div><div>절연 DC-DC 전원부, 역전압·서지 보호</div><div>확장 커넥터 2개(SPI·UART / I2C·ADC·PWM), BCD 주소 스위치, FRAM</div></div></div>
+</div></div><script>
+(function(){
+  // .fit 상자: 내용을 안쪽 div 로 감싸 zoom 으로 줄여 넘침 없앰 (상자 크기는 그대로)
+  document.querySelectorAll('.fit').forEach(function(el){
+    var inner=document.createElement('div');
+    while(el.firstChild) inner.appendChild(el.firstChild);
+    el.appendChild(inner);
+    var s=1.0, g=0;
+    while((el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1)&&s>0.6&&g<60){
+      s-=0.02; g++; inner.style.zoom=s;
+    }
+    el.setAttribute('data-zoom', s.toFixed(2));
+    if(el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1) el.setAttribute('data-overflow','1');
+  });
+})();
+</script></body></html>

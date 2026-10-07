@@ -1,0 +1,62 @@
+{
+  "product": "GO-RP2350-CB04T04",
+  "version": "v1.5.0",
+  "updatedAt": "2026-10-07",
+  "files": [
+    {
+      "name": "motor-temperature-relay-manual.pdf",
+      "label": "모터 온도 측정·릴레이 출력 장치 설치·배선·화면조작 매뉴얼 v2.7",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/motor-temperature-relay-manual.pdf"
+    },
+    {
+      "name": "pcb-layout.pdf",
+      "label": "PCB 레이아웃 도면",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/pcb-layout.pdf"
+    },
+    {
+      "name": "schematic.pdf",
+      "label": "회로도",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/schematic.pdf"
+    },
+    {
+      "name": "product-front.png",
+      "label": "대표 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/product-front.png"
+    },
+    {
+      "name": "product-back.png",
+      "label": "뒷면 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/product-back.png"
+    },
+    {
+      "name": "product-line.png",
+      "label": "선화 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/product-line.png"
+    },
+    {
+      "name": "manual.pdf",
+      "label": "제품 사용설명서 PDF",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/manual.pdf"
+    },
+    {
+      "name": "manual-page-1.png",
+      "label": "사용설명서 1쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/manual-page-1.png"
+    },
+    {
+      "name": "manual-page-2.png",
+      "label": "사용설명서 2쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/manual-page-2.png"
+    },
+    {
+      "name": "manual-page-3.png",
+      "label": "사용설명서 3쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/manual-page-3.png"
+    },
+    {
+      "name": "manual-page-4.png",
+      "label": "사용설명서 4쪽 이미지",
+      "url": "/Downloads/downloads/go-rp2350-cb04t04/manual-page-4.png"
+    }
+  ]
+}

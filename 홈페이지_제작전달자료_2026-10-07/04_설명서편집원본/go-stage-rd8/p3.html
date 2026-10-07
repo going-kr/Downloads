@@ -1,0 +1,73 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;color:#1d2a55;-webkit-font-smoothing:antialiased}
+.page{position:relative;width:1169px;height:827px;overflow:hidden;background:#fff}
+.hdr{position:absolute;left:0;top:0;width:100%;height:70px}
+.hdr svg{position:absolute;left:0;top:0}
+.hdr h1{position:absolute;left:30px;top:9px;font-size:23px;font-weight:700;color:#fff;letter-spacing:-0.3px}
+.hdr .fam{display:inline-block;margin-left:12px;padding:2px 10px;border:1px solid rgba(255,255,255,.55);border-radius:12px;
+  font-size:12px;font-weight:500;vertical-align:4px;letter-spacing:.2px}
+.hdr .pg{position:absolute;right:28px;top:40px;font-size:15px;color:#3a4566;font-weight:400}
+.hdr .pg b{font-weight:700;color:#1d2a55}
+.sec{font-size:16px;font-weight:700;color:#1d2a55;margin:0 0 9px 0;letter-spacing:-0.2px}
+.sec:before{content:'·';margin-right:4px}
+table{border-collapse:collapse;width:100%}
+.spec th{background:#2a3d82;color:#fff;font-weight:500;font-size:12.5px;height:30px}
+.spec td{font-size:12px;height:27px;border-bottom:1px solid #dfe3ef;text-align:center;padding:2px 6px;line-height:1.25}
+.spec td.k{background:#e0e4f2;color:#2b3a6b;width:36%;font-weight:500}
+.spec tr:last-child td{border-bottom:2px solid #2a3d82}
+.pin{margin-bottom:10px}
+.pin th.t{background:#2a3d82;color:#fff;font-weight:500;font-size:12px;height:26px}
+.pin th.c{background:#f1f2f8;color:#3c4fa8;font-weight:500;font-size:11px;height:22px;border-bottom:1px solid #dfe3ef}
+.pin td{font-size:11.5px;height:22px;text-align:center;border-bottom:1px solid #e6e9f2;border-left:1px solid #eef0f6;padding:1px 4px}
+.pin td:first-child{border-left:none}
+.tbd{color:#b45309;background:#fff4e0;border-radius:3px;padding:0 4px;font-weight:500}
+.band{position:absolute;left:0;right:0;bottom:0;background:#f6f7fc}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px}
+.feat div{font-size:13px;line-height:1.45;padding-left:20px;position:relative}
+.feat div:before{content:'';position:absolute;left:2px;top:6px;width:9px;height:9px;border-radius:2px;background:#2a3d82}
+.sub{font-size:13.5px;color:#3a4566;margin:-2px 0 10px 0}
+.photo{background:#eaf0fc;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.photo img{max-width:94%;max-height:94%;object-fit:contain}
+.cap{font-size:10.5px;color:#7a84a3;margin-top:6px;line-height:1.4}
+.term{break-inside:avoid;margin-bottom:9px}
+.term th.t{background:#2a3d82;color:#fff;font-size:11.5px;font-weight:500;height:24px;text-align:left;padding-left:8px}
+.term th.t span{float:right;margin-right:6px;font-weight:700;font-size:10.5px;background:#e8590c;color:#fff;
+  border-radius:4px;padding:0 6px;line-height:17px;margin-top:1px}
+.term td{font-size:11px;height:19px;border-bottom:1px solid #e6e9f2;padding:1px 6px}
+.term td.n{width:44px;text-align:center;background:#f1f2f8;color:#3c4fa8}
+.term td.d{font-size:10.5px;color:#6b7393;background:#fafbfe}
+.ctl{display:grid;grid-template-columns:1fr 1fr;gap:5px 26px}
+.ctl div{font-size:12.5px;line-height:1.45;padding-left:14px;position:relative}
+.ctl div:before{content:'';position:absolute;left:1px;top:7px;width:6px;height:6px;border-radius:50%;background:#2a3d82}
+.cols{column-count:2;column-gap:16px;column-fill:auto}
+.card{background:#fff;border:1px solid #e1e5f0;border-radius:6px;padding:12px 14px 10px 14px;break-inside:avoid;
+  margin-bottom:14px;display:block}
+.card .sec{margin-bottom:8px}
+.card .body{display:flex;gap:14px;align-items:center}
+.card table.kv{width:50%;flex:none}
+.card.tmpl table.kv{width:44%}
+.card .chain{margin-top:8px}
+.kv td{font-size:11.5px;height:24px;border-bottom:1px solid #e6e9f2;padding:2px 6px;line-height:1.25}
+.kv td.k{background:#e0e4f2;color:#2b3a6b;width:40%;text-align:center;font-weight:500}
+.kv td.v{text-align:center}
+.card .dia{flex:1;min-width:0}
+.card .note{font-size:11.5px;color:#4a5375;margin-top:8px;line-height:1.45}
+.fit{overflow:hidden}
+</style></head><body><div class="page"><div class="hdr"><svg width="1169" height="70"><path d="M0,0 H1169 V36 H869 C829,36 819,62 759,62 H0 Z" fill="#18376e"/></svg><h1>GO-STAGE-RD8 사용 설명서<span class="fam">GO-DIRECT 시스템</span></h1><div class="pg">manual page <b>03</b></div></div><div class="band" style="top:70px"></div><div style="position:absolute;left:30px;top:84px;right:30px;height:723px"><div class="cols" style="height:723px"><div class="card tmpl"><div class="sec">출력 회로 구성</div><div class="body"><table class="kv"><tr><td class="k">출력 방식</td><td class="v">릴레이 접점 (1a)</td></tr><tr><td class="k">Common 방식</td><td class="v">8점 공통 COM</td></tr><tr><td class="k">접점 정격</td><td class="v">5A 250VAC / 5A 30VDC</td></tr><tr><td class="k">제어 논리</td><td class="v">출력 Low → 릴레이 ON</td></tr><tr><td class="k">수동 조작</td><td class="v">DIP ON → 릴레이 ON</td></tr><tr><td class="k">동작 표시</td><td class="v">출력마다 LED</td></tr></table><div class="dia"><svg viewBox="0 0 500 152" width="100%"><text x="2" y="14" font-size="12" font-weight="700" fill="#2a3d82" font-family="Noto Sans KR">부하 AC</text><rect x="2" y="24" width="160" height="112" fill="none" stroke="#18376e" stroke-width="1.2"/><rect x="10" y="70" width="46" height="48" fill="#18376e"/><text x="33" y="94" font-size="9.5" fill="#fff" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans KR">내부회로</text><circle cx="76" cy="94" r="8" fill="#fff" stroke="#18376e" stroke-width="1.2"/><path d="M70,88 l12,12 M70,100 l12,-12" stroke="#18376e" stroke-width="1.2"/><line x1="56" y1="94" x2="68" y2="94" stroke="#18376e" stroke-width="1.2"/><text x="94" y="74" font-size="9" fill="#1d2a55" text-anchor="middle" font-family="Noto Sans KR">릴레이</text><line x1="84" y1="94" x2="102" y2="94" stroke="#18376e" stroke-width="1" stroke-dasharray="3,2"/><line x1="108" y1="56" x2="162" y2="56" stroke="#18376e" stroke-width="1.2"/><line x1="108" y1="56" x2="108" y2="84" stroke="#18376e" stroke-width="1.2"/><line x1="108" y1="84" x2="116" y2="100" stroke="#18376e" stroke-width="1.4"/><line x1="108" y1="104" x2="108" y2="130" stroke="#18376e" stroke-width="1.2"/><line x1="108" y1="130" x2="162" y2="130" stroke="#18376e" stroke-width="1.2"/><circle cx="162" cy="56" r="2.6" fill="#fff" stroke="#18376e"/><circle cx="162" cy="130" r="2.6" fill="#fff" stroke="#18376e"/><text x="130" y="50" font-size="9.5" fill="#1d2a55" font-family="Noto Sans KR">OUT</text><text x="152" y="146" font-size="9.5" fill="#1d2a55" font-family="Noto Sans KR">COM</text><line x1="162" y1="56" x2="222" y2="56" stroke="#18376e" stroke-width="1.2"/><rect x="184" y="49" width="16" height="14" fill="#18376e"/><text x="192" y="56" font-size="9" fill="#fff" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans KR">L</text><line x1="222" y1="56" x2="222" y2="80" stroke="#18376e" stroke-width="1.2"/><line x1="222" y1="110" x2="222" y2="130" stroke="#18376e" stroke-width="1.2"/><line x1="162" y1="130" x2="222" y2="130" stroke="#18376e" stroke-width="1.2"/><circle cx="222" cy="95" r="15" fill="#fff" stroke="#18376e" stroke-width="1.2"/><path d="M214,95 q4,-8 8,0 t8,0" fill="none" stroke="#18376e" stroke-width="1.2"/><text x="256" y="14" font-size="12" font-weight="700" fill="#2a3d82" font-family="Noto Sans KR">부하 DC</text><rect x="256" y="24" width="160" height="112" fill="none" stroke="#18376e" stroke-width="1.2"/><rect x="264" y="70" width="46" height="48" fill="#18376e"/><text x="287" y="94" font-size="9.5" fill="#fff" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans KR">내부회로</text><circle cx="330" cy="94" r="8" fill="#fff" stroke="#18376e" stroke-width="1.2"/><path d="M324,88 l12,12 M324,100 l12,-12" stroke="#18376e" stroke-width="1.2"/><line x1="310" y1="94" x2="322" y2="94" stroke="#18376e" stroke-width="1.2"/><text x="348" y="74" font-size="9" fill="#1d2a55" text-anchor="middle" font-family="Noto Sans KR">릴레이</text><line x1="338" y1="94" x2="356" y2="94" stroke="#18376e" stroke-width="1" stroke-dasharray="3,2"/><line x1="362" y1="56" x2="416" y2="56" stroke="#18376e" stroke-width="1.2"/><line x1="362" y1="56" x2="362" y2="84" stroke="#18376e" stroke-width="1.2"/><line x1="362" y1="84" x2="370" y2="100" stroke="#18376e" stroke-width="1.4"/><line x1="362" y1="104" x2="362" y2="130" stroke="#18376e" stroke-width="1.2"/><line x1="362" y1="130" x2="416" y2="130" stroke="#18376e" stroke-width="1.2"/><circle cx="416" cy="56" r="2.6" fill="#fff" stroke="#18376e"/><circle cx="416" cy="130" r="2.6" fill="#fff" stroke="#18376e"/><text x="384" y="50" font-size="9.5" fill="#1d2a55" font-family="Noto Sans KR">OUT</text><text x="406" y="146" font-size="9.5" fill="#1d2a55" font-family="Noto Sans KR">COM</text><line x1="416" y1="56" x2="476" y2="56" stroke="#18376e" stroke-width="1.2"/><rect x="438" y="49" width="16" height="14" fill="#18376e"/><text x="446" y="56" font-size="9" fill="#fff" text-anchor="middle" dominant-baseline="central" font-family="Noto Sans KR">L</text><line x1="476" y1="56" x2="476" y2="80" stroke="#18376e" stroke-width="1.2"/><line x1="476" y1="110" x2="476" y2="130" stroke="#18376e" stroke-width="1.2"/><line x1="416" y1="130" x2="476" y2="130" stroke="#18376e" stroke-width="1.2"/><line x1="466" y1="86" x2="486" y2="86" stroke="#18376e" stroke-width="1.6"/><line x1="470" y1="94" x2="482" y2="94" stroke="#18376e" stroke-width="1.6"/><line x1="466" y1="102" x2="486" y2="102" stroke="#18376e" stroke-width="1.6"/><line x1="476" y1="80" x2="476" y2="86" stroke="#18376e" stroke-width="1.2"/><line x1="476" y1="102" x2="476" y2="110" stroke="#18376e" stroke-width="1.2"/><text x="489" y="84" font-size="9" fill="#1d2a55" font-family="Noto Sans KR">+</text></svg></div></div><div class="chain"><svg viewBox="0 0 520 60" width="100%" style="max-height:60px"><defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2a3d82"/></marker></defs><rect x="87.4" y="4.0" width="111.4" height="30" rx="5" fill="#18376e" stroke="#18376e" stroke-width="1.3"/><text x="143.1" y="19.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="Noto Sans KR" font-weight="500">PCF8574A P0~P7</text><rect x="220.8" y="4.0" width="82.2" height="30" rx="5" fill="#fff" stroke="#18376e" stroke-width="1.3"/><text x="261.8" y="19.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#1d2a55" font-family="Noto Sans KR" font-weight="500">릴레이 코일</text><line x1="198.8" y1="19.0" x2="218.8" y2="19.0" stroke="#2a3d82" stroke-width="1.4" marker-end="url(#ah)"/><rect x="324.9" y="4.0" width="107.7" height="30" rx="5" fill="#18376e" stroke="#18376e" stroke-width="1.3"/><text x="378.8" y="19.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="Noto Sans KR" font-weight="500">접점 COM ↔ OUT</text><line x1="302.9" y1="19.0" x2="322.9" y2="19.0" stroke="#2a3d82" stroke-width="1.4" marker-end="url(#ah)"/></svg></div><div class="note">※ 접점은 무전압 접점이며, DIP 스위치를 ON 하면 I2C 명령과 관계없이 해당 릴레이가 동작합니다.</div></div><div class="card"><div class="sec">I2C 통신 · 주소 설정</div><div class="body"><table class="kv"><tr><td class="k">연결 버스</td><td class="v">메인 보드 RD장치 버스</td></tr><tr><td class="k">확장 IC</td><td class="v">PCF8574A (8비트 I/O)</td></tr><tr><td class="k">주소 설정</td><td class="v">Board Number 0~7 → 0x38~0x3F</td></tr><tr><td class="k">레벨 변환</td><td class="v">MOSFET 3.3V ↔ 5V</td></tr><tr><td class="k">보호</td><td class="v">10Ω 직렬 저항</td></tr><tr><td class="k">RST</td><td class="v">다음 보드로 통과만</td></tr></table><div class="dia"><svg viewBox="0 0 250 116" width="100%" style="max-height:116px"><defs><marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#2a3d82"/></marker></defs><rect x="44.0" y="4.0" width="84.0" height="30" rx="5" fill="#18376e" stroke="#18376e" stroke-width="1.3"/><text x="86.0" y="19.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="Noto Sans KR" font-weight="500">RD장치 버스</text><rect x="150.0" y="4.0" width="56.0" height="30" rx="5" fill="#fff" stroke="#18376e" stroke-width="1.3"/><text x="178.0" y="19.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#1d2a55" font-family="Noto Sans KR" font-weight="500">10Ω</text><line x1="128.0" y1="19.0" x2="148.0" y2="19.0" stroke="#2a3d82" stroke-width="1.4" marker-end="url(#ah)"/><rect x="43.0" y="60.0" width="70.7" height="30" rx="5" fill="#fff" stroke="#18376e" stroke-width="1.3"/><text x="78.3" y="75.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#1d2a55" font-family="Noto Sans KR" font-weight="500">레벨 변환</text><path d="M197.0,34.0 V50.0 H78.3 V58.0" fill="none" stroke="#2a3d82" stroke-width="1.4" marker-end="url(#ah)"/><rect x="135.7" y="60.0" width="71.4" height="30" rx="5" fill="#18376e" stroke="#18376e" stroke-width="1.3"/><text x="171.3" y="75.0" font-size="11.5" text-anchor="middle" dominant-baseline="central" fill="#fff" font-family="Noto Sans KR" font-weight="500">PCF8574A</text><line x1="113.7" y1="75.0" x2="133.7" y2="75.0" stroke="#2a3d82" stroke-width="1.4" marker-end="url(#ah)"/></svg></div></div><div class="note">※ 같은 버스에 여러 장을 연결할 때는 Board Number 가 겹치지 않게 설정합니다.</div></div></div></div></div><script>
+(function(){
+  // .fit 상자: 내용을 안쪽 div 로 감싸 zoom 으로 줄여 넘침 없앰 (상자 크기는 그대로)
+  document.querySelectorAll('.fit').forEach(function(el){
+    var inner=document.createElement('div');
+    while(el.firstChild) inner.appendChild(el.firstChild);
+    el.appendChild(inner);
+    var s=1.0, g=0;
+    while((el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1)&&s>0.6&&g<60){
+      s-=0.02; g++; inner.style.zoom=s;
+    }
+    el.setAttribute('data-zoom', s.toFixed(2));
+    if(el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1) el.setAttribute('data-overflow','1');
+  });
+})();
+</script></body></html>

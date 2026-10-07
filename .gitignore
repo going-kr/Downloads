@@ -491,3 +491,5 @@ Sens.Cdn/cdn-storage/*
 /Sens.PLC/Going.SPC/Going.SPC/spc.db
 /Sens.PLC/Going.SPC/Going.SPC/spc.db-shm
 /Sens.PLC/Going.SPC/Going.SPC/spc.db-wal
+
+**/*.zip

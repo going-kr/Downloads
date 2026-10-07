@@ -1,0 +1,88 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;color:#1d2a55;-webkit-font-smoothing:antialiased}
+.page{position:relative;width:1169px;height:827px;overflow:hidden;background:#fff}
+.hdr{position:absolute;left:0;top:0;width:100%;height:70px}
+.hdr svg{position:absolute;left:0;top:0}
+.hdr h1{position:absolute;left:30px;top:9px;font-size:23px;font-weight:700;color:#fff;letter-spacing:-0.3px}
+.hdr .fam{display:inline-block;margin-left:12px;padding:2px 10px;border:1px solid rgba(255,255,255,.55);border-radius:12px;
+  font-size:12px;font-weight:500;vertical-align:4px;letter-spacing:.2px}
+.hdr .pg{position:absolute;right:28px;top:40px;font-size:15px;color:#3a4566;font-weight:400}
+.hdr .pg b{font-weight:700;color:#1d2a55}
+.sec{font-size:16px;font-weight:700;color:#1d2a55;margin:0 0 9px 0;letter-spacing:-0.2px}
+.sec:before{content:'·';margin-right:4px}
+table{border-collapse:collapse;width:100%}
+.spec th{background:#2a3d82;color:#fff;font-weight:500;font-size:12.5px;height:30px}
+.spec td{font-size:12px;height:27px;border-bottom:1px solid #dfe3ef;text-align:center;padding:2px 6px;line-height:1.25}
+.spec td.k{background:#e0e4f2;color:#2b3a6b;width:36%;font-weight:500}
+.spec tr:last-child td{border-bottom:2px solid #2a3d82}
+.pin{margin-bottom:10px}
+.pin th.t{background:#2a3d82;color:#fff;font-weight:500;font-size:12px;height:26px}
+.pin th.c{background:#f1f2f8;color:#3c4fa8;font-weight:500;font-size:11px;height:22px;border-bottom:1px solid #dfe3ef}
+.pin td{font-size:11.5px;height:22px;text-align:center;border-bottom:1px solid #e6e9f2;border-left:1px solid #eef0f6;padding:1px 4px}
+.pin td:first-child{border-left:none}
+.tbd{color:#b45309;background:#fff4e0;border-radius:3px;padding:0 4px;font-weight:500}
+.band{position:absolute;left:0;right:0;bottom:0;background:#f6f7fc}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px}
+.feat div{font-size:13px;line-height:1.45;padding-left:20px;position:relative}
+.feat div:before{content:'';position:absolute;left:2px;top:6px;width:9px;height:9px;border-radius:2px;background:#2a3d82}
+.sub{font-size:13.5px;color:#3a4566;margin:-2px 0 10px 0}
+.photo{background:#eaf0fc;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.photo img{max-width:94%;max-height:94%;object-fit:contain}
+.cap{font-size:10.5px;color:#7a84a3;margin-top:6px;line-height:1.4}
+.term{break-inside:avoid;margin-bottom:9px}
+.term th.t{background:#2a3d82;color:#fff;font-size:11.5px;font-weight:500;height:24px;text-align:left;padding-left:8px}
+.term th.t span{float:right;margin-right:6px;font-weight:700;font-size:10.5px;background:#e8590c;color:#fff;
+  border-radius:4px;padding:0 6px;line-height:17px;margin-top:1px}
+.term td{font-size:11px;height:19px;border-bottom:1px solid #e6e9f2;padding:1px 6px}
+.term td.n{width:44px;text-align:center;background:#f1f2f8;color:#3c4fa8}
+.term td.d{font-size:10.5px;color:#6b7393;background:#fafbfe}
+.ctl{display:grid;grid-template-columns:1fr 1fr;gap:5px 26px}
+.ctl div{font-size:12.5px;line-height:1.45;padding-left:14px;position:relative}
+.ctl div:before{content:'';position:absolute;left:1px;top:7px;width:6px;height:6px;border-radius:50%;background:#2a3d82}
+.cols{column-count:2;column-gap:16px;column-fill:auto}
+.card{background:#fff;border:1px solid #e1e5f0;border-radius:6px;padding:12px 14px 10px 14px;break-inside:avoid;
+  margin-bottom:14px;display:block}
+.card .sec{margin-bottom:8px}
+.card .body{display:flex;gap:14px;align-items:center}
+.card table.kv{width:50%;flex:none}
+.card.tmpl table.kv{width:44%}
+.card .chain{margin-top:8px}
+.kv td{font-size:11.5px;height:24px;border-bottom:1px solid #e6e9f2;padding:2px 6px;line-height:1.25}
+.kv td.k{background:#e0e4f2;color:#2b3a6b;width:40%;text-align:center;font-weight:500}
+.kv td.v{text-align:center}
+.card .dia{flex:1;min-width:0}
+.card .note{font-size:11.5px;color:#4a5375;margin-top:8px;line-height:1.45}
+.fit{overflow:hidden}
+</style></head><body><div class="page"><div class="hdr"><svg width="1169" height="70"><path d="M0,0 H1169 V36 H869 C829,36 819,62 759,62 H0 Z" fill="#18376e"/></svg><h1>GO-PCF8574-SEN08 사용 설명서</h1><div class="pg">manual page <b>01</b></div></div>
+<div style="position:absolute;left:30px;top:86px;width:392px;height:520px">
+  <div class="photo" style="height:486px"><img src="top_t.png"></div>
+  <div class="cap">※ 설계 데이터(PCB 아트웍)로 그린 렌더링 이미지입니다. 실물과 다를 수 있습니다.</div>
+</div>
+<div class="fit" style="position:absolute;left:446px;top:84px;width:330px;height:540px">
+  <div class="sec">정격 / 성능</div><table class="spec"><tr><th>MODEL</th><th>GO-PCF8574-SEN08</th></tr><tr><td class="k">I/O 확장 칩</td><td>PCF8574 (I2C 8비트 I/O, 인터럽트 출력)</td></tr><tr><td class="k">통신</td><td>I2C (SDA · SCL) + 인터럽트 I2C-INT</td></tr><tr><td class="k">I2C 주소</td><td>0x20~0x27 (BCD 스위치 0~7)</td></tr><tr><td class="k">센서 입력</td><td>8점, 포토커플러 절연</td></tr><tr><td class="k">입력 방식</td><td>NPN / PNP 선택 (점퍼)</td></tr><tr><td class="k">입력 정격 전압</td><td>DC 24V (10mA 이하)</td></tr><tr><td class="k">입력 표시</td><td>입력마다 녹색 LED</td></tr><tr><td class="k">센서 전원 입력</td><td>DC 24V (DC-INPUT 단자)</td></tr><tr><td class="k">로직 전원</td><td>+5V (확장 커넥터에서 공급)</td></tr><tr><td class="k">확장 커넥터</td><td>2mm 2×8 직각, 수 · 암 각 1개 (같은 배열)</td></tr><tr><td class="k">사용 온도 · 습도</td><td>−10 ~ 50°C · 10 ~ 95% RH (결빙 없음)</td></tr><tr><td class="k">크기</td><td>51 × 81 mm</td></tr></table>
+</div>
+<div class="fit" style="position:absolute;left:800px;top:84px;width:340px;height:540px">
+  <div class="sec">제품 PIN배치</div><div style="display:grid;grid-template-columns:1fr;gap:0 10px"><table class="pin"><tr><th class="t" colspan="2">SENSOR INPUT</th></tr><tr><th class="c">PCF8574</th><th class="c">보드 단자</th></tr><tr><td>P0</td><td>IN1</td></tr><tr><td>P1</td><td>IN2</td></tr><tr><td>P2</td><td>IN3</td></tr><tr><td>P3</td><td>IN4</td></tr><tr><td>P4</td><td>IN5</td></tr><tr><td>P5</td><td>IN6</td></tr><tr><td>P6</td><td>IN7</td></tr><tr><td>P7</td><td>IN8</td></tr></table><table class="pin"><tr><th class="t" colspan="2">I2C 주소 (BCD 스위치)</th></tr><tr><th class="c">스위치 위치</th><th class="c">7비트 주소</th></tr><tr><td>0</td><td>0x20</td></tr><tr><td>1</td><td>0x21</td></tr><tr><td>2</td><td>0x22</td></tr><tr><td>3</td><td>0x23</td></tr><tr><td>4</td><td>0x24</td></tr><tr><td>5</td><td>0x25</td></tr><tr><td>6</td><td>0x26</td></tr><tr><td>7</td><td>0x27</td></tr></table></div>
+</div>
+<div class="band" style="height:184px;padding:18px 30px 0 30px">
+  <div class="sec">주요 특징</div>
+  <div class="sub">PCF8574 I2C 센서 입력 확장 보드 — 절연 입력 8점 · NPN/PNP 선택 · 주소 설정 스위치</div>
+  <div class="fit" style="height:96px"><div class="feat"><div>센서 입력 8점, 포토커플러 절연 · 입력마다 표시 LED</div><div>3선식 센서용 3핀 커넥터 8개 (+ · S · −), 센서 전원 별도 입력</div><div>NPN / PNP 센서 선택 점퍼 (입력 공통 COM 전환)</div><div>PCF8574 I2C 입력 · 인터럽트, 주소 0x20~0x27 스위치 설정</div><div>확장 커넥터 수·암 1쌍 — GO-RP2040-CB08 J9 와 같은 핀 배열</div><div>I2C · INT 신호 MOSFET 레벨 변환 + TVS 보호</div></div></div>
+</div></div><script>
+(function(){
+  // .fit 상자: 내용을 안쪽 div 로 감싸 zoom 으로 줄여 넘침 없앰 (상자 크기는 그대로)
+  document.querySelectorAll('.fit').forEach(function(el){
+    var inner=document.createElement('div');
+    while(el.firstChild) inner.appendChild(el.firstChild);
+    el.appendChild(inner);
+    var s=1.0, g=0;
+    while((el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1)&&s>0.6&&g<60){
+      s-=0.02; g++; inner.style.zoom=s;
+    }
+    el.setAttribute('data-zoom', s.toFixed(2));
+    if(el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1) el.setAttribute('data-overflow','1');
+  });
+})();
+</script></body></html>

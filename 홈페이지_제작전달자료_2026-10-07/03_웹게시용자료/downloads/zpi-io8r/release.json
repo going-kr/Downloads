@@ -1,0 +1,25 @@
+{
+  "product": "ZPI-IO8R",
+  "version": "v3.0",
+  "updatedAt": "2026-05-21",
+  "files": [
+    {
+      "name": "manual.pdf",
+      "label": "사용 메뉴얼",
+      "url": "/Downloads/downloads/zpi-io8r/manual.pdf"
+    },
+    {
+      "name": "manual-image.webp",
+      "label": "사용 설명서 이미지",
+      "url": "/Downloads/downloads/zpi-io8r/manual-image.webp"
+    },
+    {
+      "name": "schematic.png",
+      "label": "회로도",
+      "url": "/Downloads/downloads/zpi-io8r/schematic.png"
+    }
+  ],
+  "status": "deprecated",
+  "deprecatedAt": "2026-10-07",
+  "deprecationNote": "더 이상 사용하지 않는 제품으로, 기존 사용자 참고용 자료만 보관합니다."
+}

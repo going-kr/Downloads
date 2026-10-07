@@ -1,0 +1,88 @@
+<!doctype html><html lang='ko'><head><meta charset='utf-8'><style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:'Noto Sans KR','Malgun Gothic',sans-serif;color:#1d2a55;-webkit-font-smoothing:antialiased}
+.page{position:relative;width:1169px;height:827px;overflow:hidden;background:#fff}
+.hdr{position:absolute;left:0;top:0;width:100%;height:70px}
+.hdr svg{position:absolute;left:0;top:0}
+.hdr h1{position:absolute;left:30px;top:9px;font-size:23px;font-weight:700;color:#fff;letter-spacing:-0.3px}
+.hdr .fam{display:inline-block;margin-left:12px;padding:2px 10px;border:1px solid rgba(255,255,255,.55);border-radius:12px;
+  font-size:12px;font-weight:500;vertical-align:4px;letter-spacing:.2px}
+.hdr .pg{position:absolute;right:28px;top:40px;font-size:15px;color:#3a4566;font-weight:400}
+.hdr .pg b{font-weight:700;color:#1d2a55}
+.sec{font-size:16px;font-weight:700;color:#1d2a55;margin:0 0 9px 0;letter-spacing:-0.2px}
+.sec:before{content:'·';margin-right:4px}
+table{border-collapse:collapse;width:100%}
+.spec th{background:#2a3d82;color:#fff;font-weight:500;font-size:12.5px;height:30px}
+.spec td{font-size:12px;height:27px;border-bottom:1px solid #dfe3ef;text-align:center;padding:2px 6px;line-height:1.25}
+.spec td.k{background:#e0e4f2;color:#2b3a6b;width:36%;font-weight:500}
+.spec tr:last-child td{border-bottom:2px solid #2a3d82}
+.pin{margin-bottom:10px}
+.pin th.t{background:#2a3d82;color:#fff;font-weight:500;font-size:12px;height:26px}
+.pin th.c{background:#f1f2f8;color:#3c4fa8;font-weight:500;font-size:11px;height:22px;border-bottom:1px solid #dfe3ef}
+.pin td{font-size:11.5px;height:22px;text-align:center;border-bottom:1px solid #e6e9f2;border-left:1px solid #eef0f6;padding:1px 4px}
+.pin td:first-child{border-left:none}
+.tbd{color:#b45309;background:#fff4e0;border-radius:3px;padding:0 4px;font-weight:500}
+.band{position:absolute;left:0;right:0;bottom:0;background:#f6f7fc}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:6px 26px}
+.feat div{font-size:13px;line-height:1.45;padding-left:20px;position:relative}
+.feat div:before{content:'';position:absolute;left:2px;top:6px;width:9px;height:9px;border-radius:2px;background:#2a3d82}
+.sub{font-size:13.5px;color:#3a4566;margin:-2px 0 10px 0}
+.photo{background:#eaf0fc;border-radius:6px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.photo img{max-width:94%;max-height:94%;object-fit:contain}
+.cap{font-size:10.5px;color:#7a84a3;margin-top:6px;line-height:1.4}
+.term{break-inside:avoid;margin-bottom:9px}
+.term th.t{background:#2a3d82;color:#fff;font-size:11.5px;font-weight:500;height:24px;text-align:left;padding-left:8px}
+.term th.t span{float:right;margin-right:6px;font-weight:700;font-size:10.5px;background:#e8590c;color:#fff;
+  border-radius:4px;padding:0 6px;line-height:17px;margin-top:1px}
+.term td{font-size:11px;height:19px;border-bottom:1px solid #e6e9f2;padding:1px 6px}
+.term td.n{width:44px;text-align:center;background:#f1f2f8;color:#3c4fa8}
+.term td.d{font-size:10.5px;color:#6b7393;background:#fafbfe}
+.ctl{display:grid;grid-template-columns:1fr 1fr;gap:5px 26px}
+.ctl div{font-size:12.5px;line-height:1.45;padding-left:14px;position:relative}
+.ctl div:before{content:'';position:absolute;left:1px;top:7px;width:6px;height:6px;border-radius:50%;background:#2a3d82}
+.cols{column-count:2;column-gap:16px;column-fill:auto}
+.card{background:#fff;border:1px solid #e1e5f0;border-radius:6px;padding:12px 14px 10px 14px;break-inside:avoid;
+  margin-bottom:14px;display:block}
+.card .sec{margin-bottom:8px}
+.card .body{display:flex;gap:14px;align-items:center}
+.card table.kv{width:50%;flex:none}
+.card.tmpl table.kv{width:44%}
+.card .chain{margin-top:8px}
+.kv td{font-size:11.5px;height:24px;border-bottom:1px solid #e6e9f2;padding:2px 6px;line-height:1.25}
+.kv td.k{background:#e0e4f2;color:#2b3a6b;width:40%;text-align:center;font-weight:500}
+.kv td.v{text-align:center}
+.card .dia{flex:1;min-width:0}
+.card .note{font-size:11.5px;color:#4a5375;margin-top:8px;line-height:1.45}
+.fit{overflow:hidden}
+</style></head><body><div class="page"><div class="hdr"><svg width="1169" height="70"><path d="M0,0 H1169 V36 H869 C829,36 819,62 759,62 H0 Z" fill="#18376e"/></svg><h1>GO-Pi-Zero-Main 사용 설명서<span class="fam">Senbrix</span></h1><div class="pg">manual page <b>01</b></div></div>
+<div style="position:absolute;left:30px;top:86px;width:392px;height:520px">
+  <div class="photo" style="height:486px"><img src="top_t.png"></div>
+  <div class="cap">※ 설계 데이터(PCB 아트웍)로 그린 렌더링 이미지입니다. 실물과 다를 수 있습니다.</div>
+</div>
+<div class="fit" style="position:absolute;left:446px;top:84px;width:330px;height:540px">
+  <div class="sec">정격 / 성능</div><table class="spec"><tr><th>MODEL</th><th>GO-Pi-Zero-Main</th></tr><tr><td class="k">CPU</td><td>라즈베리파이 Zero 2 장착형 (40핀 헤더)</td></tr><tr><td class="k">입력 전원</td><td>DC 24V</td></tr><tr><td class="k">내부 전원</td><td>5V (절연 DC-DC 모듈) · 3.3V (LDO)</td></tr><tr><td class="k">이더넷</td><td>W5500, RJ45 1포트</td></tr><tr><td class="k">CAN</td><td>1채널, 확장 버스로 SUB 보드 연결</td></tr><tr><td class="k">CAN 속도</td><td>500 kbps (SUB 보드 펌웨어 설정)</td></tr><tr><td class="k">RS-485</td><td>1채널, 절연 (CH0)</td></tr><tr><td class="k">확장 버스</td><td>2mm 2×8 직각 소켓 — CAN · I2C(5V) · 전원</td></tr><tr><td class="k">스위치</td><td>BCD 로터리 2개 · SET/MODE 버튼</td></tr><tr><td class="k">상태 표시</td><td>CAN · RS-485 송수신 LED, 절연 전원 LED</td></tr><tr><td class="k">사용 온도 · 습도</td><td>−10 ~ 50°C · 10 ~ 95% RH (결빙 없음)</td></tr><tr><td class="k">크기</td><td>75 × 81 mm</td></tr></table>
+</div>
+<div class="fit" style="position:absolute;left:800px;top:84px;width:340px;height:540px">
+  <div class="sec">제품 PIN배치</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:0 10px"><table class="pin"><tr><th class="t" colspan="2">이더넷 (W5500)</th></tr><tr><th class="c">파이 GPIO (핀)</th><th class="c">신호</th></tr><tr><td>GPIO8 (24)</td><td>CS</td></tr><tr><td>GPIO9 (21)</td><td>MISO</td></tr><tr><td>GPIO10 (19)</td><td>MOSI</td></tr><tr><td>GPIO11 (23)</td><td>SCK</td></tr><tr><td>GPIO25 (22)</td><td>INT</td></tr><tr><td>GPIO24 (18)</td><td>RESET</td></tr></table><table class="pin"><tr><th class="t" colspan="2">CAN (MCP2515)</th></tr><tr><th class="c">파이 GPIO (핀)</th><th class="c">신호</th></tr><tr><td>GPIO18 (12)</td><td>CS</td></tr><tr><td>GPIO19 (35)</td><td>MISO</td></tr><tr><td>GPIO20 (38)</td><td>MOSI</td></tr><tr><td>GPIO21 (40)</td><td>SCK</td></tr><tr><td>GPIO26 (37)</td><td>INT</td></tr><tr><td>GPIO23 (16)</td><td>RESET</td></tr></table><table class="pin"><tr><th class="t" colspan="2">RS-485 · 확장 버스 I2C</th></tr><tr><th class="c">파이 GPIO (핀)</th><th class="c">신호</th></tr><tr><td>GPIO14 (8)</td><td>RS-485 TX (TXD0)</td></tr><tr><td>GPIO15 (10)</td><td>RS-485 RX (RXD0)</td></tr><tr><td>GPIO2 (3)</td><td>SDA (버스 8번)</td></tr><tr><td>GPIO3 (5)</td><td>SCL (버스 6번)</td></tr><tr><td>GPIO22 (15)</td><td>RESET (버스 2번)</td></tr></table><table class="pin"><tr><th class="t" colspan="2">BCD 스위치 · 버튼</th></tr><tr><th class="c">파이 GPIO (핀)</th><th class="c">기능</th></tr><tr><td>GPIO12 (32)</td><td>BCD-SW10 X1</td></tr><tr><td>GPIO13 (33)</td><td>BCD-SW10 X2</td></tr><tr><td>GPIO16 (36)</td><td>BCD-SW10 X4</td></tr><tr><td>GPIO17 (11)</td><td>BCD-SW10 X8</td></tr><tr><td>GPIO4 (7)</td><td>BCD-SW1 X1</td></tr><tr><td>GPIO5 (29)</td><td>BCD-SW1 X2</td></tr><tr><td>GPIO6 (31)</td><td>BCD-SW1 X4</td></tr><tr><td>GPIO7 (26)</td><td>BCD-SW1 X8</td></tr><tr><td>GPIO27 (13)</td><td>SET MODE 버튼</td></tr></table></div>
+</div>
+<div class="band" style="height:184px;padding:18px 30px 0 30px">
+  <div class="sec">주요 특징</div>
+  <div class="sub">라즈베리파이 Zero 2 장착 메인보드 — 유선 이더넷 · SUB 보드용 CAN 확장 버스 · 절연 RS-485</div>
+  <div class="fit" style="height:96px"><div class="feat"><div>라즈베리파이 Zero 2 장착 40핀 헤더, 보드에서 파이로 5V 공급</div><div>유선 이더넷 — W5500 + RJ45 (LINK · ACT LED)</div><div>CAN (MCP2515) — 16핀 확장 버스로 SUB 보드 연결</div><div>절연 RS-485 1채널 (CH0) — 절연 전원 + 포토커플러</div><div>BCD 로터리 스위치 2개(10의 자리·1의 자리), SET/MODE 버튼</div><div>DC 전원 입력 → 절연 DC-DC 5V · 3.3V LDO, 역전압·서지 보호</div></div></div>
+</div></div><script>
+(function(){
+  // .fit 상자: 내용을 안쪽 div 로 감싸 zoom 으로 줄여 넘침 없앰 (상자 크기는 그대로)
+  document.querySelectorAll('.fit').forEach(function(el){
+    var inner=document.createElement('div');
+    while(el.firstChild) inner.appendChild(el.firstChild);
+    el.appendChild(inner);
+    var s=1.0, g=0;
+    while((el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1)&&s>0.6&&g<60){
+      s-=0.02; g++; inner.style.zoom=s;
+    }
+    el.setAttribute('data-zoom', s.toFixed(2));
+    if(el.scrollHeight>el.clientHeight+1||el.scrollWidth>el.clientWidth+1) el.setAttribute('data-overflow','1');
+  });
+})();
+</script></body></html>
